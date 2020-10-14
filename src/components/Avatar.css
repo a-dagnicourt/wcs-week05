@@ -1,0 +1,90 @@
+.card {
+  display: flex;
+  background-color: #666;
+  border-radius: 25px;
+  margin: 25px;
+  box-shadow: black 5px 5px;
+}
+
+.card img {
+  height: 25vh;
+  padding: 20px;
+}
+
+.cardName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.feats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feats img {
+  height: 25px;
+}
+
+.star {
+  background: linear-gradient(
+    270deg,
+    #ffc200,
+    #ff2400,
+    #0098ff,
+    #23ff00,
+    #001cff,
+    #fd00ff
+  );
+  background-size: 2000% 2000%;
+
+  animation: epilepsy 1s linear infinite;
+}
+
+@keyframes epilepsy {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.star div {
+  opacity: 1;
+  animation: lsd 0.2s linear infinite;
+}
+
+@keyframes lsd {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.star img {
+  transform: scale(1);
+  animation: megaBass 0.2s linear infinite;
+}
+
+@keyframes megaBass {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

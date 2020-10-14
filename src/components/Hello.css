@@ -1,0 +1,4 @@
+.spinner {
+  pointer-events: none;
+  display: inline-block;
+}
