@@ -55,7 +55,7 @@
   }
 }
 
-.star div {
+.star .cardName {
   opacity: 1;
   animation: lsd 0.2s linear infinite;
 }
@@ -72,7 +72,7 @@
   }
 }
 
-.star img {
+.star > img {
   transform: scale(1);
   animation: megaBass 0.2s linear infinite;
 }

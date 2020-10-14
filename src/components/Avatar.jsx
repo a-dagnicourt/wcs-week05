@@ -33,7 +33,7 @@ class Avatar extends React.Component {
                 star: newStarStatus,
               });
             }}
-            className={!this.state.star && 'grayscale'}
+            className={!this.state.star ? 'grayscale' : undefined}
             src='https://vignette.wikia.nocookie.net/fantendo/images/4/46/NSMBU_Star.png/'
             alt='Mario Star'
           />
