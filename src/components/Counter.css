@@ -1,0 +1,30 @@
+.counter-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #666;
+  border-radius: 25px;
+  margin: 25px;
+  padding: 25px;
+  width: 50vw;
+  box-shadow: black 5px 5px;
+}
+
+.counter-div * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+}
+
+.counter-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #999;
+  width: 100%;
+  height: 15vh;
+}

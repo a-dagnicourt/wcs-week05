@@ -4,6 +4,7 @@
   border-radius: 25px;
   margin: 25px;
   box-shadow: black 5px 5px;
+  width: 50vw;
 }
 
 .card > img {
