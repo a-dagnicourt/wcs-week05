@@ -6,9 +6,9 @@
   box-shadow: black 5px 5px;
 }
 
-.card img {
+.card > img {
   height: 25vh;
-  padding: 20px;
+  padding: 10px;
 }
 
 .cardName {
@@ -18,14 +18,20 @@
   padding: 10px;
 }
 
+.cardName h2,
+h3 {
+  font-size: 2.5rem;
+}
+
 .feats {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.feats img {
+.feats * {
   height: 25px;
+  margin: 25px;
 }
 
 .star {
