@@ -4,7 +4,6 @@ import Hello from './components/Hello.jsx';
 // import WorkshopButton from './components/WorkshopButton.jsx';
 import Counter from './components/counter/Counter.jsx';
 import AvatarList from './components/avatar/AvatarList.jsx';
-
 import Board from './components/chessboard/Board.jsx';
 
 import logo from './logo.svg';
@@ -60,7 +59,7 @@ class App extends React.Component {
           <div className='workshop-block fa-col'>
             {this.state.simpsons && <AvatarList />}
             {this.state.counter && <Counter />}
-            {this.state.chess && <Board rows={8} cols={8} />}
+            {this.state.chess && <Board />}
           </div>
         </main>
       </div>

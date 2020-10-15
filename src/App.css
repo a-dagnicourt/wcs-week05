@@ -44,11 +44,6 @@ body {
   margin: 5vh;
 }
 
-button {
-  margin: 0 5px;
-  min-width: 20vw;
-}
-
 .fa {
   display: flex;
   justify-content: center;
