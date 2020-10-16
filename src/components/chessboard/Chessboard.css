@@ -1,0 +1,19 @@
+.board {
+  margin: 0;
+  padding: 0;
+}
+
+.cell {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  content: none;
+}
+
+.cell-black {
+  background-color: black;
+}
+
+.cell-white {
+  background-color: white;
+}
