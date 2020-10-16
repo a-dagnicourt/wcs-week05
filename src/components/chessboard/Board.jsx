@@ -55,11 +55,6 @@ export default class Board extends React.Component {
         <button className='col s6 btn cyan' onClick={this.colMinus}>
           Col -
         </button>
-        <button
-          className='btn cyan col s12 cyan darken-3'
-          onClick={this.generateChess}>
-          Generate
-        </button>
         {new Array(this.state.rowCount).fill('').map((_, i) => {
           return <Row rowIndex={i} colIndex={this.state.colCount} key={i} />;
         })}
